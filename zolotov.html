@@ -18,7 +18,7 @@
             min-height: 100vh;
             padding: 20px;
             color: #2d3748;
-            padding-bottom: 100px; /* Увеличили отступ для двух кнопок */
+            padding-bottom: 80px;
         }
         
         .container {
@@ -472,21 +472,6 @@
                 font-size: 0.75rem;
                 padding: 8px 10px;
             }
-            
-            /* Адаптация для кнопок на мобильных */
-            .support-button, .clarify-button {
-                bottom: 70px;
-                font-size: 0.9rem;
-                padding: 10px 15px;
-            }
-            
-            .support-button {
-                left: 20px;
-            }
-            
-            .clarify-button {
-                right: 20px;
-            }
         }
         
         .notification {
@@ -534,35 +519,6 @@
         }
         
         .support-icon {
-            font-size: 1.2rem;
-        }
-        
-        /* Новая кнопка уточнения */
-        .clarify-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: linear-gradient(to right, #e74c3c, #c0392b);
-            color: white;
-            padding: 14px 22px;
-            border-radius: 50px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            z-index: 1000;
-            font-weight: 600;
-        }
-        
-        .clarify-button:hover {
-            background: linear-gradient(to right, #c0392b, #a93226);
-            transform: translateY(-3px);
-            box-shadow: 0 12px 25px rgba(0,0,0,0.3);
-        }
-        
-        .clarify-icon {
             font-size: 1.2rem;
         }
         
@@ -991,12 +947,6 @@
     <a href="https://t.me/IistZolotovRobot" target="_blank" class="support-button">
         <i class="fas fa-headset support-icon"></i>
         Техподдержка @IistZolotovRobot
-    </a>
-
-    <!-- Новая кнопка уточнения -->
-    <a href="https://t.me/IistZolotovRobot" target="_blank" class="clarify-button">
-        <i class="fas fa-question-circle clarify-icon"></i>
-        Уточнить через @IistZolotovRobot
     </a>
 
     <div class="notification" id="notification">
